@@ -1,6 +1,6 @@
 # Weather Report
 
-Check the current weather in any city!
+Check the current weather for any city!
 
 ## Vite + React + Typescript
 
