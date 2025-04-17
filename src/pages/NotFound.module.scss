@@ -1,0 +1,24 @@
+.notFound {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  h1 {
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-bottom: 2rem;
+  }
+  
+  .link {
+    padding: 0.5rem 1rem;
+    background-color: #646cff;
+    color: white;
+    border-radius: 4px;
+    
+    &:hover {
+      background-color: #535bf2;
+    }
+  }
+}

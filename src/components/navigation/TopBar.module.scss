@@ -1,0 +1,55 @@
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  height: 64px;
+}
+
+.title {
+  h1 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #111827;
+  }
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.languageButton, .logoutButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  border: none;
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.languageButton {
+  background-color: #f3f4f6;
+  color: #4b5563;
+  
+  &:hover {
+    background-color: #e5e7eb;
+  }
+}
+
+.logoutButton {
+  background-color: #ef4444;
+  color: #ffffff;
+  
+  &:hover {
+    background-color: #dc2626;
+  }
+}
